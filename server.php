@@ -15,4 +15,5 @@ if ($uri !== '/' and file_exists(__DIR__.'/public'.$uri)) {
     return false;
 }
 
+
 require_once __DIR__.'/public/index.php';
